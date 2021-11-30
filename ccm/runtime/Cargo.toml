@@ -28,13 +28,14 @@ pallet-ethereum = { default-features = false, path = "../../frame/ethereum" }
 pallet-evm = { default-features = false, path = "../../frame/evm" }
 pallet-nft = { default-features = false, path = "../../frame/nft" }
 orml-nft  = { default-features = false, path = "../../frame/orml/nft" }
+pallet-balances = { default-features = false, path = "../../frame/balances" }
 
 pallet-dynamic-fee = { default-features = false, path = "../../frame/dynamic-fee" }
 pallet-evm-precompile-simple = { default-features = false, path = "../../frame/evm/precompile/simple" }
 pallet-evm-precompile-sha3fips = { default-features = false, path = "../../frame/evm/precompile/sha3fips" }
 pallet-evm-precompile-modexp = { default-features = false, path = "../../frame/evm/precompile/modexp" }
 pallet-aura = { default-features = false, git = "https://github.com/paritytech/substrate",rev="ba153b9ae050eda022f002d74d76f98d1e339a81" }
-pallet-balances = { default-features = false, git = "https://github.com/paritytech/substrate",rev="ba153b9ae050eda022f002d74d76f98d1e339a81" }
+
 pallet-grandpa = { default-features = false, git = "https://github.com/paritytech/substrate",rev="ba153b9ae050eda022f002d74d76f98d1e339a81" }
 pallet-randomness-collective-flip = { default-features = false, git = "https://github.com/paritytech/substrate",rev="ba153b9ae050eda022f002d74d76f98d1e339a81" }
 pallet-sudo = { default-features = false, git = "https://github.com/paritytech/substrate",rev="ba153b9ae050eda022f002d74d76f98d1e339a81" }
